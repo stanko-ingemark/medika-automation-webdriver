@@ -4,7 +4,6 @@ import CartPage from "../pageObjects/cart.page";
 import CheckoutShippingPage from "../pageObjects/checkout-shipping.page";
 import CheckoutPaymentPage from "../pageObjects/checkout-payment.page";
 import OrderConfirmationPage from "../pageObjects/order-confirmation.page";
-import checkoutConfirmationComp from "../pageObjects/Medika STG/components/checkout-confirmation.comp";
 
 describe('Guest checkout - NON OTC and cash on delivery only', () => {
     it('Guest checkout - pickup', async () => {
@@ -47,7 +46,7 @@ describe('Guest checkout - NON OTC and cash on delivery only', () => {
 
     })
 
-    it.only('Guest checkout - delivery', async() => {
+    it('Guest checkout - delivery', async() => {
 
         await HomePage.open();
 
@@ -93,7 +92,7 @@ describe('Guest checkout - NON OTC and cash on delivery only', () => {
         const confirmTotal = await OrderConfirmationPage.ConfirmationComponent.orderTotal.getText();
         
         //check if shipping address is correct
-        let finalAddress = await checkoutConfirmationComp.address_FirstLast.getText() + " " + await checkoutConfirmationComp.address_StreetNum.getText() + " " + await checkoutConfirmationComp.address_ZipCity.getText();
+        let finalAddress = await OrderConfirmationPage.checkoutConfirmationComp.address_FirstLast.getText() + " " + await OrderConfirmationPage.checkoutConfirmationComp.address_StreetNum.getText() + " " + await OrderConfirmationPage.checkoutConfirmationComp.address_ZipCity.getText();
         await expect (customerInfo).toEqual(finalAddress);
     
 

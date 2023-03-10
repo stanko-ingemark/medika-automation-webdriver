@@ -5,10 +5,6 @@ class OrderConfirmationPage {
         return CheckoutConfirmationComp
     } 
 
-    async finalAddress () {
-    return checkoutConfirmationComp.address_FirstLast.getText() + " " + checkoutConfirmationComp.address_StreetNum.getText() + " " + checkoutConfirmationComp.address_ZipCity.getText();
-    }
-
 }
 
 export default new OrderConfirmationPage();
