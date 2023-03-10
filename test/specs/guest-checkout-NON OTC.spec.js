@@ -92,7 +92,7 @@ describe('Guest checkout - NON OTC and cash on delivery only', () => {
         const confirmTotal = await OrderConfirmationPage.ConfirmationComponent.orderTotal.getText();
         
         //check if shipping address is correct
-        let finalAddress = await OrderConfirmationPage.checkoutConfirmationComp.address_FirstLast.getText() + " " + await OrderConfirmationPage.checkoutConfirmationComp.address_StreetNum.getText() + " " + await OrderConfirmationPage.checkoutConfirmationComp.address_ZipCity.getText();
+        let finalAddress = await OrderConfirmationPage.ConfirmationComponent.address_FirstLast.getText() + " " + await OrderConfirmationPage.ConfirmationComponent.address_StreetNum.getText() + " " + await OrderConfirmationPage.ConfirmationComponent.address_ZipCity.getText();
         await expect (customerInfo).toEqual(finalAddress);
     
 
