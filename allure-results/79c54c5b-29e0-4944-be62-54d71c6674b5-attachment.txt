@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@href='/products/antiperspirant-roll-on'][@data-currency='EUR']/../following-sibling::div/span[@class='now']"
+}

@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@href='/products/l-erbolario-sun-mast-super-brzo-tamnjenje-x'][@data-currency='EUR']/../../following-sibling::div/button"
+}

@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Mar 14 09:20:18 CET 2023","Tue Mar 14 09:20:37 CET 2023","18415","","add products to cart and validate total as guest user","","","","Add products to cart",""

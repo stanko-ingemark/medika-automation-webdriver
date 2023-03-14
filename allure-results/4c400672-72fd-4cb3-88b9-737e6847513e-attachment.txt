@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#js-navbar-cart-button-item-total"
+}

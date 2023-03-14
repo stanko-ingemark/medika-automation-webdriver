@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//a[@href='/products/l-erbolario-sun-svjetlucajuca-krema'][@data-currency='EUR']/../following-sibling::div/span[@class='now']"
+}
