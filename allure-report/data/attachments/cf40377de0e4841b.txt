@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//div[@class='e-radio__item js-pristineParent']/label"
-}

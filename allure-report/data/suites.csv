@@ -1,2 +1,3 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Tue Mar 14 09:20:18 CET 2023","Tue Mar 14 09:20:37 CET 2023","18415","","add products to cart and validate total as guest user","","","","Add products to cart",""
+"failed","Fri Mar 17 13:12:34 CET 2023","Fri Mar 17 13:13:06 CET 2023","32377","","User login (email) and logout)","","","","Unsuccessful attempt - missing or wrong credentials",""
+"passed","Fri Mar 17 13:13:06 CET 2023","Fri Mar 17 13:13:26 CET 2023","20074","","User login (email) and logout)","","","","Successful login and logout",""

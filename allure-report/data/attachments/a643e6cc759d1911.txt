@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//h2[@class =\"c-productCardInOrder__title\"]/a"
-}

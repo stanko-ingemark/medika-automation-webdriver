@@ -32,6 +32,16 @@ export const config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+
+    suites: {
+        guestcheckout : [
+            'test/specs/guest-add-items-to-cart.spec.js',
+            'test/specs/guest-checkout-NON OTC.spec.js'
+        ],
+        login : [
+            'test/specs/login-test.spec.js'
+        ]
+    },
     //
     // ============
     // Capabilities

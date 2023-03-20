@@ -27,7 +27,7 @@ class CategoryPage  {
                 chosenItems.push(productTitle);
                 const attr = await header.getAttribute("href");
                 const itemID = attr.split("products/").pop(); 
-                const addToCart = await $("//a[@href='/products/" + itemID + "'][@data-currency='EUR']/../../following-sibling::div/button")
+                const addToCart = await $("//a[@href='/products/" + itemID + "'][@data-currency='EUR']/../../following-sibling::div/button[@data-button-role='add_to_cart']")
                 await addToCart.click();
         
                 //if no products in cart - check if modal is triggered and add pharmacy address
@@ -37,10 +37,11 @@ class CategoryPage  {
                     await expect (LocationModal.locModalComp.locationModalDisplay).not.toBeDisplayed();
             }
         
-                //Validate product added to cart (notification, minicart updated)
+                //Validate product added to cart -notification, 
                 await NotificationComponent.popupNotif.waitForDisplayed();
                 await expect(NotificationComponent.popupNotif).toHaveText("Proizvod je uspješno dodan u košaricu.");
                 itemsNum_inCart += 1;
+                //expect minicart number updated)
                 await expect (HomePage.headerNavComp.cartTotal).toHaveText(itemsNum_inCart.toString())
         
                 //save price of each item

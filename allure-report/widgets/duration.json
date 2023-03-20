@@ -1,1 +1,1 @@
-[{"uid":"315e1a6316cb5053","name":"Add products to cart","time":{"start":1678782018603,"stop":1678782037018,"duration":18415},"status":"passed","severity":"normal"}]
+[{"uid":"1a54372ec75c7de","name":"Unsuccessful attempt - missing or wrong credentials","time":{"start":1679055154238,"stop":1679055186615,"duration":32377},"status":"failed","severity":"normal"},{"uid":"43965b3f17360a34","name":"Successful login and logout","time":{"start":1679055186617,"stop":1679055206691,"duration":20074},"status":"passed","severity":"normal"}]

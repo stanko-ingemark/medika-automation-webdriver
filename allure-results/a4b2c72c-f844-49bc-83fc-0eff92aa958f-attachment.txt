@@ -1,4 +1,0 @@
-{
-  "using": "css selector",
-  "value": "#autoComplete_list_2  > li"
-}

@@ -74,7 +74,6 @@ describe('Guest checkout - NON OTC and cash on delivery only', () => {
 
         //save address and proceed
         let customerInfo = await CheckoutShippingPage.saveShippingAddress();
-        console.log("CUSTOMER INFO: " + customerInfo)
 
         //save address function
         await CheckoutShippingPage.orderSidebar.continueBtn.click();
