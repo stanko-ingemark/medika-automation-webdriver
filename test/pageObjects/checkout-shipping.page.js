@@ -44,7 +44,7 @@ class CheckoutShipping {
             postNum: postNum
         }
         
-        return savedAddress.firstName + " " + savedAddress.lastName + " " + savedAddress.address + " " + savedAddress.houseNum + " " + savedAddress.postNum + " " + savedAddress.city
+        return `${savedAddress.firstName} ${savedAddress.lastName} ${savedAddress.address} ${savedAddress.houseNum} ${savedAddress.postNum} ${savedAddress.city}`
 
     }
 

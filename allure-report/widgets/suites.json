@@ -1,1 +1,1 @@
-{"total":1,"items":[{"uid":"907344df3622933e3a0d0ad4d6295ccd","name":"User login (email) and logout)","statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2}}]}
+{"total":2,"items":[{"uid":"d61a595bbca508dca33dbba4bf82761c","name":"Guest checkout - NON OTC and cash on delivery only","statistic":{"failed":1,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":2}},{"uid":"8cdbc5ae4d9c9e95fd635f85ab421ed6","name":"add products to cart and validate total as guest user","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

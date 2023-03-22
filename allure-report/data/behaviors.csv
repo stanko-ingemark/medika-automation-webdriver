@@ -1,2 +1,3 @@
 "Epic","Feature","Story","FAILED","BROKEN","PASSED","SKIPPED","UNKNOWN"
-"","User login (email) and logout)","","1","0","1","0","0"
+"","Guest checkout - NON OTC and cash on delivery only","","1","0","1","0","0"
+"","add products to cart and validate total as guest user","","0","0","1","0","0"

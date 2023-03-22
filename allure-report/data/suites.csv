@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri Mar 17 13:12:34 CET 2023","Fri Mar 17 13:13:06 CET 2023","32377","","User login (email) and logout)","","","","Unsuccessful attempt - missing or wrong credentials",""
-"passed","Fri Mar 17 13:13:06 CET 2023","Fri Mar 17 13:13:26 CET 2023","20074","","User login (email) and logout)","","","","Successful login and logout",""
+"passed","Wed Mar 22 16:00:55 CET 2023","Wed Mar 22 16:01:25 CET 2023","30082","","Guest checkout - NON OTC and cash on delivery only","","","","Guest checkout - pickup",""
+"passed","Wed Mar 22 16:00:32 CET 2023","Wed Mar 22 16:00:50 CET 2023","17260","","add products to cart and validate total as guest user","","","","Add products to cart",""
+"failed","Wed Mar 22 16:01:25 CET 2023","Wed Mar 22 16:01:52 CET 2023","26974","","Guest checkout - NON OTC and cash on delivery only","","","","Guest checkout - delivery",""
