@@ -34,7 +34,7 @@ describe('User login (email) and logout)', () => {
         await expect(LoginPage.loginComponent.submitBtn).toBeEnabled();
         await LoginPage.loginComponent.submitBtn.click();
         await LoginPage.loginComponent.errorMsg.waitForDisplayed();
-        await expect(LoginPage.loginComponent.errorMsg).toHaveText("Neispravni podaci za prijavu!")
+        await expect(LoginPage.loginComponent.errorMsg).toHaveText("Neispravni podaci za prijavu")
         
     });
 
